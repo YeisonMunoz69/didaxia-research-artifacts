@@ -1,0 +1,17 @@
+measure,count
+trazas_elegibles,1474
+turnos_con_modificador_seleccionado,691
+turnos_con_modificador_en_prompt,691
+frase_visible_no_vacia,391
+frase_visible_literal_en_historial,298
+banco_proveedor_casos,62
+banco_proveedor_turnos,133
+banco_proveedor_pasan,62
+ampliacion_casos,3
+ampliacion_turnos,16
+ampliacion_pasan,3
+repeticion_pares,224
+repeticion_hilos,27
+repeticion_personas,21
+repeticion_completos,224
+repeticion_degradados,0
