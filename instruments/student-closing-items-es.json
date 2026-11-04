@@ -1,0 +1,332 @@
+{
+  "pre": {
+    "title": "DidaxIA: Antes de la actividad",
+    "recovered_revision": 6,
+    "items": [
+      {
+        "id": "P02",
+        "tipo": "unica",
+        "ayuda": "",
+        "titulo": "P02 · Antes de hoy, ¿habías estudiado derivadas en una clase?",
+        "opciones": [
+          "Sí, ya cursé el tema",
+          "No, todavía no lo he visto",
+          "No estoy seguro/a"
+        ],
+        "obligatoria": true
+      },
+      {
+        "id": "P03",
+        "tipo": "unica",
+        "ayuda": "",
+        "titulo": "P03 · Antes de esta sesión, ¿cuánto habías usado DidaxIA?",
+        "opciones": [
+          "Nunca",
+          "Una sesión anterior",
+          "Dos o más sesiones anteriores",
+          "No recuerdo"
+        ],
+        "obligatoria": true
+      },
+      {
+        "id": "P04",
+        "tipo": "unica",
+        "ayuda": "",
+        "titulo": "P04 · ¿Con qué dispositivo harás principalmente la actividad?",
+        "opciones": [
+          "Celular",
+          "Computador",
+          "Tableta",
+          "Dispositivo compartido"
+        ],
+        "obligatoria": true
+      },
+      {
+        "id": "P06-1",
+        "tipo": "desplegable",
+        "ayuda": "1 = totalmente en desacuerdo; 2 = en desacuerdo; 3 = ni de acuerdo ni en desacuerdo; 4 = de acuerdo; 5 = totalmente de acuerdo. PNR = prefiero no responder.",
+        "titulo": "P06.1 · Espero que DidaxIA me ayude a entender el razonamiento de una derivada",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "PNR"
+        ],
+        "obligatoria": true
+      },
+      {
+        "id": "P06-2",
+        "tipo": "desplegable",
+        "ayuda": "1 = totalmente en desacuerdo; 2 = en desacuerdo; 3 = ni de acuerdo ni en desacuerdo; 4 = de acuerdo; 5 = totalmente de acuerdo. PNR = prefiero no responder.",
+        "titulo": "P06.2 · Espero que DidaxIA me ayude a revisar mi propio procedimiento",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "PNR"
+        ],
+        "obligatoria": true
+      },
+      {
+        "id": "P06-3",
+        "tipo": "desplegable",
+        "ayuda": "1 = totalmente en desacuerdo; 2 = en desacuerdo; 3 = ni de acuerdo ni en desacuerdo; 4 = de acuerdo; 5 = totalmente de acuerdo. PNR = prefiero no responder.",
+        "titulo": "P06.3 · Espero poder encontrar las fuentes de una explicación",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "PNR"
+        ],
+        "obligatoria": true
+      },
+      {
+        "id": "P07",
+        "tipo": "desplegable",
+        "ayuda": "1 = totalmente en desacuerdo; 2 = en desacuerdo; 3 = ni de acuerdo ni en desacuerdo; 4 = de acuerdo; 5 = totalmente de acuerdo. NA = no puedo valorarlo; PNR = prefiero no responder. Es una percepción propia, no una prueba de conocimientos.",
+        "titulo": "P07 · En este momento, puedo explicar con mis palabras qué representa la derivada de una función en un punto.",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "NA",
+          "PNR"
+        ],
+        "obligatoria": false
+      }
+    ]
+  },
+  "post": {
+    "title": "DidaxIA · Después de la actividad",
+    "recovered_revision": 5,
+    "items": [
+      {
+        "id": "F02",
+        "tipo": "multiple",
+        "ayuda": "Marca sólo lo que efectivamente realizaste. Si no pudiste usar la aplicación, marca únicamente esa opción.",
+        "titulo": "F02 · ¿Qué hiciste hoy en DidaxIA?",
+        "opciones": [
+          "Envié un intento o una duda propia al tutor",
+          "Revisé mi procedimiento o envié un nuevo intento",
+          "Abrí y leí una fuente del curso",
+          "Consulté un concepto",
+          "Abrí una gráfica",
+          "Usé el teclado de símbolos",
+          "No pude usar la aplicación"
+        ],
+        "exclusivas": [
+          "No pude usar la aplicación"
+        ],
+        "obligatoria": true
+      },
+      {
+        "id": "F03-1",
+        "tipo": "desplegable",
+        "ayuda": "1 = totalmente en desacuerdo; 2 = en desacuerdo; 3 = ni de acuerdo ni en desacuerdo; 4 = de acuerdo; 5 = totalmente de acuerdo. NA = no utilicé/no aplica; PNR = prefiero no responder.",
+        "titulo": "F03.1 · Me resultó fácil escribir mi consulta o fórmula",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "NA",
+          "PNR"
+        ],
+        "obligatoria": true
+      },
+      {
+        "id": "F03-2",
+        "tipo": "desplegable",
+        "ayuda": "1 = totalmente en desacuerdo; 2 = en desacuerdo; 3 = ni de acuerdo ni en desacuerdo; 4 = de acuerdo; 5 = totalmente de acuerdo. NA = no utilicé/no aplica; PNR = prefiero no responder.",
+        "titulo": "F03.2 · Entendí la explicación que recibí",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "NA",
+          "PNR"
+        ],
+        "obligatoria": true
+      },
+      {
+        "id": "F03-3",
+        "tipo": "desplegable",
+        "ayuda": "1 = totalmente en desacuerdo; 2 = en desacuerdo; 3 = ni de acuerdo ni en desacuerdo; 4 = de acuerdo; 5 = totalmente de acuerdo. NA = no utilicé/no aplica; PNR = prefiero no responder.",
+        "titulo": "F03.3 · DidaxIA me ayudó a revisar mi propio procedimiento",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "NA",
+          "PNR"
+        ],
+        "obligatoria": true
+      },
+      {
+        "id": "F03-4",
+        "tipo": "desplegable",
+        "ayuda": "1 = totalmente en desacuerdo; 2 = en desacuerdo; 3 = ni de acuerdo ni en desacuerdo; 4 = de acuerdo; 5 = totalmente de acuerdo. NA = no utilicé/no aplica; PNR = prefiero no responder.",
+        "titulo": "F03.4 · Me resultó fácil localizar una fuente relacionada",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "NA",
+          "PNR"
+        ],
+        "obligatoria": true
+      },
+      {
+        "id": "F03-5",
+        "tipo": "desplegable",
+        "ayuda": "1 = totalmente en desacuerdo; 2 = en desacuerdo; 3 = ni de acuerdo ni en desacuerdo; 4 = de acuerdo; 5 = totalmente de acuerdo. NA = no utilicé/no aplica; PNR = prefiero no responder.",
+        "titulo": "F03.5 · En general, quedé satisfecho/a con la experiencia",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "NA",
+          "PNR"
+        ],
+        "obligatoria": true
+      },
+      {
+        "id": "F04-1",
+        "tipo": "desplegable",
+        "ayuda": "1 = nada; 2 = poca; 3 = moderada; 4 = bastante; 5 = mucha. NA = no realicé la actividad; PNR = prefiero no responder. No es una evaluación clínica.",
+        "titulo": "F04.1 · Tensión al comenzar el ejercicio",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "NA",
+          "PNR"
+        ],
+        "obligatoria": true
+      },
+      {
+        "id": "F04-2",
+        "tipo": "desplegable",
+        "ayuda": "1 = nada; 2 = poca; 3 = moderada; 4 = bastante; 5 = mucha. NA = no realicé la actividad; PNR = prefiero no responder. No es una evaluación clínica.",
+        "titulo": "F04.2 · Preocupación por cometer un error",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "NA",
+          "PNR"
+        ],
+        "obligatoria": true
+      },
+      {
+        "id": "F04-3",
+        "tipo": "desplegable",
+        "ayuda": "1 = nada; 2 = poca; 3 = moderada; 4 = bastante; 5 = mucha. NA = no realicé la actividad; PNR = prefiero no responder. No es una evaluación clínica.",
+        "titulo": "F04.3 · Nerviosismo al comprobar mi respuesta",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "NA",
+          "PNR"
+        ],
+        "obligatoria": true
+      },
+      {
+        "id": "F05",
+        "tipo": "unica",
+        "ayuda": "",
+        "titulo": "F05 · Para realizar la actividad, ¿de quién recibiste ayuda además de DidaxIA?",
+        "opciones": [
+          "No recibí ayuda de otra persona",
+          "Del facilitador",
+          "De un compañero/a",
+          "Del docente",
+          "De más de una de esas personas",
+          "No recuerdo / prefiero no responder"
+        ],
+        "obligatoria": true
+      },
+      {
+        "id": "F06",
+        "tipo": "unica",
+        "ayuda": "",
+        "titulo": "F06 · ¿Cuál fue tu principal dificultad hoy?",
+        "opciones": [
+          "Ninguna dificultad importante",
+          "Acceder o unirme a la clase",
+          "Escribir una consulta o fórmula",
+          "Leer una respuesta o localizar la fuente",
+          "Espera, conexión o error técnico",
+          "Comprender el contenido matemático",
+          "Otra dificultad",
+          "No realicé la actividad / prefiero no responder"
+        ],
+        "obligatoria": true
+      },
+      {
+        "id": "F07",
+        "tipo": "parrafo",
+        "ayuda": "No incluyas nombres ni datos personales de otras personas.",
+        "titulo": "F07 · Opcional: ¿qué conservarías o mejorarías de DidaxIA?",
+        "obligatoria": false
+      },
+      {
+        "id": "F08",
+        "tipo": "desplegable",
+        "ayuda": "1 = totalmente en desacuerdo; 2 = en desacuerdo; 3 = ni de acuerdo ni en desacuerdo; 4 = de acuerdo; 5 = totalmente de acuerdo. NA = no puedo valorarlo; PNR = prefiero no responder. Es una percepción propia, no una prueba de conocimientos.",
+        "titulo": "F08 · En este momento, puedo explicar con mis palabras qué representa la derivada de una función en un punto.",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "NA",
+          "PNR"
+        ],
+        "obligatoria": false
+      },
+      {
+        "id": "F09",
+        "tipo": "multiple",
+        "ayuda": "Marca sólo lo que hiciste. Las opciones de no revisión y reserva se seleccionan solas. Este autorreporte se contrasta con la conversación; no demuestra exactitud.",
+        "titulo": "F09 · Al revisar la respuesta del tutor, ¿qué hiciste?",
+        "opciones": [
+          "Comparé sus pasos con mi intento",
+          "Comprobé una afirmación con una fuente",
+          "Contrasté el resultado con la gráfica o un cálculo propio",
+          "Pedí aclaración sobre un paso",
+          "Acepté la respuesta sin otra comprobación",
+          "No revisé una respuesta del tutor",
+          "PNR"
+        ],
+        "exclusivas": [],
+        "obligatoria": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+turn,scripted_input_es,recorded_candidate,overall_verdict,local_verdict,step_type,step_domain,closed,contract_fallback,same_task
+1,"Ey, tengo este ejercicio y me tiene mamado: derivar f(x) = xˣ · e²ˣ / √(x²+1). No sé ni por dónde empezar",,,,,,false,false,true
+2,"Pues hay un producto, un cociente y una raíz, o sea regla del producto, del cociente y la de la cadena. Y xˣ pues es como una potencia, entonces la derivo como x·x^(x−1), ¿no?",x*x^(x-1),no_verificable,invalida,derivada,,false,false,true
+3,"Ah, jmm, no, el exponente también es x, o sea varía. Entonces la regla de la potencia no sirve aquí... uy, ¿y entonces? Ni idea qué hago con eso.",,,,derivada,,false,false,true
+4,"Mmm, ¿ln(aᵇ) = b·ln(a)? Ah ya, ¿entonces le saco ln a todo?",,,,,,false,false,true
+5,A ver... ln f = ln(xˣ) + ln(e²ˣ) − ln(√(x²+1)). Y eso queda x·ln x + 2x − ½·ln(x²+1). Quedó mucho más fácil jaja,x*ln(x)+2x-1/2*ln(x^(2)+1),no_verificable,valida,equivalencia,x>0 y función positiva,false,false,true
+6,"Pues la derivada de ln f es 1/f, ¿cierto?",1/(x^(x)*e^(2x)/sqrt(x^(2)+1)),no_verificable,invalida,equivalencia,x>0 y función positiva,false,false,true
+7,"Ahhh sí, me faltó f’. Queda f’/f. Y del otro lado: x·ln x da ln x + 1 por producto, 2x da 2, y el último... −½ · (1/(x²+1)), ¿y ya?",-1/2*(1/(x^(2)+1)),no_verificable,invalida,equivalencia,x>0 y función positiva,false,false,true
+8,"Uy, se me olvidó otra vez la cadena u = x²+1, u’ = 2x. Entonces queda −½ · 2x/(x²+1) = −x/(x²+1).",-x/(x^(2)+1),no_verificable,valida,equivalencia,,false,false,true
+9,"f’/f = ln x + 1 + 2 − x/(x²+1) = ln x + 3 − x/(x²+1). Bueno parce, ya casi, ¿pero ahora cómo despejo f’? Dime nomás qué sigue porque ya me dio pereza jaja",ln(x)+3-x/(x^(2)+1),no_verificable,valida,equivalencia,x>0 y función positiva,false,false,true
+10,Multiplicar por f en los dos lados. Entonces: f'(x) = [xˣ·e²ˣ/√(x²+1)] · [ln x + 3 − x/(x²+1)]. ¡Quedó! ¿Está bien?,(x^(x)*e^(2x)/sqrt(x^(2)+1))*(ln(x)+3-x/(x^(2)+1)),valida,,,,true,false,true

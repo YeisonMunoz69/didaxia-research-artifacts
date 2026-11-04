@@ -1,7 +1,8 @@
 cff-version: 1.2.0
-message: Cite these aggregate study artifacts when using them.
+message: Cite this tagged version when using the aggregate tables or supplementary materials.
 title: Differential Calculus Tutor Study Artifacts
 type: dataset
-version: 0.1.0
+version: 0.2.0
+url: "https://github.com/YeisonMunoz69/didaxia-research-artifacts/tree/v0.2.0"
 authors:
   - name: Differential Calculus Tutor Study Team

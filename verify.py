@@ -47,4 +47,17 @@ assert tech["banco_proveedor_pasan"] == tech["banco_proveedor_casos"] == 62
 assert tech["repeticion_completos"] == tech["repeticion_pares"] == 224
 print("Self-perception:", changes)
 print("Teacher criteria:", ratings)
+with (DATA.parent / "technical" / "scripted-calculus-case.csv").open(
+    encoding="utf-8", newline=""
+) as source:
+    case = list(csv.DictReader(source))
+assert [int(turn["turn"]) for turn in case] == list(range(1, 11))
+assert all(turn["same_task"] == "true" and turn["contract_fallback"] == "false" for turn in case)
+assert [turn["closed"] for turn in case] == ["false"] * 9 + ["true"]
+assert case[3]["recorded_candidate"] == case[3]["overall_verdict"] == case[3]["local_verdict"] == ""
+for turn in (5, 8, 9):
+    assert case[turn - 1]["local_verdict"] == "valida"
+    assert case[turn - 1]["overall_verdict"] == "no_verificable"
+assert case[-1]["overall_verdict"] == "valida"
+print("Scripted case: ten recorded turns, same task retained, closure on the final turn.")
 print("All released consistency checks passed.")

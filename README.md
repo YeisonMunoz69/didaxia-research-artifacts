@@ -1,19 +1,19 @@
 # Differential calculus tutor study artifacts
 
-Version 0.1.0. Aggregate evidence for the formative university evaluation of a Spanish-language conversational differential calculus tutor. Student activities ran from 16 September to 9 October 2026. The cumulative extraction was closed on 10 October 2026. Teacher review was subsequent and involved two teachers.
+Version 0.2.0 accompanies a four-week formative university evaluation of a Spanish-language conversational tutor for differential calculus. Student activities ran from 16 September to 9 October 2026; the cumulative student extraction closed on 10 October. Two teachers subsequently reviewed selected mathematical content and demonstrated functions. This release preserves the seven aggregate CSVs from [v0.1.0](https://github.com/YeisonMunoz69/didaxia-research-artifacts/tree/v0.1.0) and adds documentation for inspecting the analysis and the tutor's turn contract.
 
-Run `python verify.py` using Python 3.10 or later. The script needs only the standard library and makes no network requests. The CSV files are the canonical release. The checks cover the inclusion flow arithmetic, weekly and class totals, survey response distributions, ordinal transitions, teacher rating patterns, and selected technical counts.
+## Review the study materials
 
-| File | Unit and source |
+Clone or download the tagged version and run `python verify.py` with Python 3.10 or later. The script uses the standard library and makes no network requests. It checks selected aggregate results, including the inclusion arithmetic, complete-pair totals by analysis window and class, questionnaire distributions, self-perception transitions, paired teacher-rating patterns, and selected technical counts. It also checks the consistency of the released scripted trace. `SHA256SUMS` records the file digests.
+
+| Material | What it supports |
 | --- | --- |
-| study_counts.csv | One count per measure. Derived from the reconciled OE4 pilot report and aggregated teacher review. A complete pair is a student message and its stored tutor response. |
-| weekly_activity.csv | Counts by analysis window S1 (16–22 Sep), S2 (23–29 Sep), S3 (30 Sep–4 Oct), S4 (5–10 Oct). People may appear in multiple windows. |
-| class_activity.csv | Counts by platform class, with class labels as reported in the paper. People may appear in multiple classes. Survey distributions are pooled across classes. |
-| post_experience.csv | One count per item and category. F03.1 writing, F03.2 explanation, F03.3 procedure, F03.4 source, F03.5 satisfaction. Categories 1–5 are ordinal. NA means not applicable or nonuse and PNR means prefer not to answer. Favorability is categories 4 and 5 divided by numeric answers. |
-| self_perception.csv | Counts per pre/post category pair for the item on perceived ability to explain the derivative at a point, using chronological pairs with numeric answers to the same item. |
-| teacher_content.csv | Number of selected criteria by paired rating pattern. No evaluator-level rows. Favorable means 4 or 5. |
-| technical_counts.csv | Aggregate development and trace counts from editorial reconciliation. Literal announcements measure the occurrence of wording. Designed bank and replay counts describe execution under their recorded conditions. |
+| [Analysis and data guide](analysis-guide.md) | Definitions, denominators, rules used in the analysis, and links from manuscript tables and figures to released inputs |
+| [Aggregate tables](data/) | Review of released counts and distributions without participant records |
+| [Instrument documentation](instruments/README.md) | Spanish wording and response options for recovered student closing items, plus the rated criteria from both teacher instruments |
+| [Turn contract and development case](technical/README.md) | An inspection of task continuity, scoped checking, and closure in one preserved scripted case |
+| [Citation metadata](CITATION.cff) | Identification of this version as a citable dataset and documentation package |
 
-The export uses a field allowlist from existing aggregate sources. It contains no participant rows, identifiers, conversation text, precise individual timestamps, consent records, evaluator forms, copyrighted source passages, or backend code. Class-level survey outcome breakdowns are excluded to reduce disclosure in small groups. Totals for distinct people and threads were derived upstream. These tables support checking reported arithmetic and reconstructing aggregate distributions. They cannot independently repeat participant selection, record linkage, individual judgments, or service execution.
+The release contains derived tables rather than an anonymized copy of the production database. The aggregate tables contain no participant rows or conversations, individual survey responses, consent records, evaluator forms, or precise individual timestamps. The Spanish dialogue in the technical file consists of scripted development inputs. Class-level survey outcomes, copyrighted source passages, and the tutor implementation remain outside this release. The package allows readers to check the released aggregate arithmetic and inspect the recorded case. It does not allow independent reconstruction of participant selection, record linkage, individual judgments, or re-execution of the service.
 
-Source instruments and implementation materials remain under project custody. No public data license is asserted for third-party or restricted materials. Cite this version and the linked study when available.
+Cite this tagged version and the accompanying article when available. No new licensing terms are assigned by this release.

@@ -1,0 +1,149 @@
+{
+  "language": "es",
+  "functionality": {
+    "response_options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "NA",
+      "PNR"
+    ],
+    "items": [
+      {
+        "id": "V.1",
+        "wording": "Pude identificar la clase y gestionar sus solicitudes."
+      },
+      {
+        "id": "V.2",
+        "wording": "Me resultó claro cómo localizar el periodo y el estudiante."
+      },
+      {
+        "id": "V.3",
+        "wording": "Entendí qué información muestran las métricas y cuándo faltan datos."
+      },
+      {
+        "id": "V.4",
+        "wording": "La información consultada me ayudaría a acompañar la actividad."
+      }
+    ]
+  },
+  "content_and_sources": {
+    "response_options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "NA",
+      "II"
+    ],
+    "items": [
+      {
+        "id": "P03",
+        "wording": "La definición de derivada presentada en el fragmento es matemáticamente correcta."
+      },
+      {
+        "id": "P04",
+        "wording": "La interpretación de la derivada como pendiente de la recta tangente es matemáticamente correcta."
+      },
+      {
+        "id": "P05",
+        "wording": "La fórmula presentada para derivar una función constante es correcta."
+      },
+      {
+        "id": "P06",
+        "wording": "La regla de la potencia está correctamente formulada para un exponente constante."
+      },
+      {
+        "id": "P07",
+        "wording": "Las fórmulas de derivación trigonométrica mostradas son matemáticamente correctas."
+      },
+      {
+        "id": "P08",
+        "wording": "Las fórmulas de derivación exponencial y logarítmica mostradas son matemáticamente correctas en sus dominios de aplicación."
+      },
+      {
+        "id": "P09",
+        "wording": "El resultado obtenido al derivar xn es correcto."
+      },
+      {
+        "id": "P10",
+        "wording": "La evaluación de la derivada en x = 2 está calculada correctamente."
+      },
+      {
+        "id": "P11",
+        "wording": "La derivación término a término de x² + 3x aplica correctamente la regla de la suma."
+      },
+      {
+        "id": "P12",
+        "wording": "La aplicación de la regla del producto a x²·sen(x) es correcta."
+      },
+      {
+        "id": "P13",
+        "wording": "La expresión factorizada que presenta el tutor es equivalente a la derivada obtenida."
+      },
+      {
+        "id": "P14",
+        "wording": "La sustitución del numerador y del denominador en la regla del cociente es correcta."
+      },
+      {
+        "id": "P15",
+        "wording": "La expresión obtenida para la derivada de x²/(x + 1) es correcta donde está definida la función original."
+      },
+      {
+        "id": "P16",
+        "wording": "La identificación de la función exterior y de la función interior es correcta."
+      },
+      {
+        "id": "P17",
+        "wording": "La derivada obtenida incorpora correctamente el factor correspondiente a la derivada de la función interior."
+      },
+      {
+        "id": "P18",
+        "wording": "La factorización y simplificación utilizadas son válidas para calcular el límite indicado."
+      },
+      {
+        "id": "P19",
+        "wording": "El valor final del límite es correcto."
+      },
+      {
+        "id": "P20",
+        "wording": "La descripción de la función como una recta con un punto excluido es matemáticamente correcta."
+      },
+      {
+        "id": "P21",
+        "wording": "La explicación distingue correctamente entre el límite en x = 1 y el valor de la función original en ese punto."
+      },
+      {
+        "id": "P22",
+        "wording": "La aceptación de la propuesta del estudiante es matemáticamente correcta para el ejercicio mostrado."
+      },
+      {
+        "id": "P23",
+        "wording": "La evaluación de la propuesta «0» como incorrecta es matemáticamente correcta para el ejercicio mostrado."
+      },
+      {
+        "id": "P24",
+        "wording": "La regla de derivación explicada es pertinente para obtener el resultado correcto del ejercicio."
+      },
+      {
+        "id": "P25",
+        "wording": "El fragmento incorporado al sistema conserva el significado matemático del pasaje original mostrado."
+      },
+      {
+        "id": "P26",
+        "wording": "El fragmento recuperado proporciona fundamento para la definición de derivada utilizada en la respuesta mostrada."
+      },
+      {
+        "id": "P27",
+        "wording": "El fragmento incorporado al sistema conserva el contenido matemático del ejemplo original mostrado."
+      },
+      {
+        "id": "P28",
+        "wording": "La aplicación de la regla de la cadena en la respuesta del tutor es coherente con el principio explicado en el fragmento recuperado."
+      }
+    ]
+  }
+}
